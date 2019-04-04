@@ -1,1 +1,1 @@
-# SatisfactoGraph-frontend
+# SatisfactoGraph-Frontend
