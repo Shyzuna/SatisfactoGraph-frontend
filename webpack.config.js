@@ -27,7 +27,21 @@ let config = {
     })
   ],
   module: {
-    rules: []
+      rules: [
+        {
+          test: /\.(js|jsx)$/,
+          exclude: /(node_modules|bower_components)/,
+          loader: "babel-loader"
+        },
+        {
+          test: /\.css$/,
+          use: ["style-loader", "css-loader"]
+        },
+        {
+            test: /\.(png|jpeg|jpg|svg)$/,
+            loader: 'url-loader'
+        }
+    ]
   }
 };
 

@@ -1,0 +1,25 @@
+.app {
+    height: 400px;
+}
+
+.buildingList {
+  position: relative;
+  height: 68vh;
+  overflow: auto;
+}
+
+.buildingSettings {
+  position: relative;
+  height: 28vh;
+  overflow: auto;
+}
+
+.buildingSettings {
+  display: block;
+}
+
+.workzone {
+  position: relative;
+  height: 96vh;
+  overflow: auto;
+}
