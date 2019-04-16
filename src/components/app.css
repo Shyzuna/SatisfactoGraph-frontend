@@ -23,3 +23,7 @@
   height: 96vh;
   overflow: auto;
 }
+
+body {
+  overflow: hidden;
+}
